@@ -37,7 +37,7 @@ const Hero = () => {
           trigger: "#hero",
           start: "top top",
           end: "bottom top",
-          scrub: true,
+          scrub: 2,
           markers: true,
         },
       })

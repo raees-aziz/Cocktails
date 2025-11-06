@@ -36,7 +36,7 @@ const Menu = () => {
   const nextCocktail = getCocktailAll(+1);
   const prevCocktail = getCocktailAll(-1);
 
-  console.log(getCocktailAll(0));
+  // console.log(getCocktailAll(0));
 
   return (
     <section id="menu" aria-labelledby="menu-heading">

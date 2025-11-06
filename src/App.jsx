@@ -8,6 +8,7 @@ import About from './components/About'
 import Art from './components/Art'
 import Menu from './components/Menu'
 import Contact from './components/Contact'
+import SmoothVideoScroll from './components/SmoothVideoScroll'
 
 
 gsap.registerPlugin(ScrollTrigger,SplitText)
@@ -22,6 +23,7 @@ const App = () => {
    <Art/>
    <Menu/>
    <Contact/>
+   <SmoothVideoScroll/>
    {/* <div className='h-dvh bg-black'></div> */}
 
    </main>
