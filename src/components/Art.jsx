@@ -30,7 +30,7 @@ const Art = () => {
       .to(".masked-img", {
         scale: 1.3,
         maskPosition: "center",
-        maskSize: "400%",
+        maskSize: "500%",
         duration: 1,
         ease: "power1.inOut",
       })
@@ -44,7 +44,7 @@ const Art = () => {
   return (
     <div id="art">
       <div className="container mx-auto h-full pt-20 pt">
-        <h2 className="will-fade">The ART</h2>
+        <h2 className="will-fade">The Brand</h2>
 
         <div className="content">
           <ul className="space-y-4 will-fade">
@@ -58,8 +58,8 @@ const Art = () => {
 
           <div className="cocktail-img">
             <img
-              className="abs-center masked-img size-full object-contain"
-              src="/images/under-img.jpg"
+              className="abs-center masked-img size-full object-cover"
+              src="/images/under-img2.jpg"
               alt="cocktail"
             />
           </div>
@@ -76,11 +76,8 @@ const Art = () => {
         <div className="masked-container">
           <h2 className="will-fade">Sip-Worthy Perfection</h2>
           <div id="masked-content">
-            <h3>Made With Craft, Poured With Passion</h3>
-            <p>
-              This isn't just a drink. It's carefully crafted moment made just
-              for you...
-            </p>
+            <h3>Where Every Sip Feels Like Home</h3>
+            <p>Because great tea is more than a drink — it’s a moment.</p>
           </div>
         </div>
       </div>
